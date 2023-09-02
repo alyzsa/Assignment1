@@ -28,7 +28,7 @@ func main() {
 	var data DataPeserta
 	err = json.Unmarshal(dataFile, &data)
 	if err != nil {
-		fmt.Println("Gagal, coba lagi", err)
+		fmt.Println("Gagal membaca file", err)
 		return
 	}
 
